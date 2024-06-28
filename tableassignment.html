@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+
+        #th_second {
+            background-color: red;
+            color: white;
+        }
+        tr, td{
+            border: 2px solid green;
+        }
+        #over_here{
+            border: 5px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th rowspan="5">
+
+                <img src="table_image.JPG" alt="">
+            </th>
+            <th id="th_second" colspan="4">
+                it is a maze
+            </th>
+
+        </tr>
+        <tr>
+            <td rowspan="4">you can span down</td>
+            <td colspan="3">you can span across</td>
+        </tr>
+        <tr>
+            <td colspan="2">it is like a puzzle</td>
+            <td rowspan="3" id="over_here"> over here</td>
+        </tr>
+        <tr>
+            <td rowspan="2">this way</td>
+            <td>that way</td>
+        </tr>
+        <tr>
+            <td>where am i</td>
+        </tr>
+    </table>
+</body>
+
+</html>
